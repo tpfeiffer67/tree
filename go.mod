@@ -1,4 +1,4 @@
-module github.com/tpfeiffer67/goldtree
+module github.com/tpfeiffer67/tree
 
 go 1.20
 
