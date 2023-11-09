@@ -1,0 +1,42 @@
+0000
+	1111
+	 style=1
+	 description='''one one_one_one one one
+	 one one
+	 one_one one one'''
+		2222
+		 label="DEUX"
+		 style=2
+		 description="two two two"
+	3333
+		4444
+		 description='''this is a
+		 multiline
+		 comment''' 
+			5555
+	6666
+	 style=1
+	 description='''six six six_six_six
+	 six six_six six
+	 six six_six_six'''
+		7777
+			8888
+			 label='''This is a
+			 multi-line label. It replaces
+			 the "8888"'''
+			9999
+			 style=2
+			 description="nine nine"
+			AAAA
+			 aa aaa aaa a a aaaaaaa aaaaaa
+			 a a aaaaaaa aaaaaa aaaa aaaaaa
+			 a
+			 aaa aaaaaa aaaa aa aa aaa aaa a
+			 a aa aa
+				BBBB
+					CCCC
+		DDDD
+			EEEE
+				FFFF
+					GGGG
+	HHHH
