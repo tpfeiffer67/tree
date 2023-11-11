@@ -132,7 +132,6 @@ func TestPreOrderIteration(t *testing.T) {
 	s = concatNodeIds(node0.PreOrderIter())
 	assert.Equal(s, " 000 111 222 333 444 555 666 777 888 999 AAA BBB CCC DDD EEE FFF GGG HHH")
 
-	// TODO Ajouter un test sur val dans text_test.go
 	fltr := func(node *Node) bool {
 		matched, _ := regexp.MatchString(`\d+`, node.Values()["id"].(string)) // node.Value.(Val).Text)
 		return matched
@@ -221,22 +220,3 @@ func ExampleLevelOrderIter() {
 	// level 4: BBB FFF
 	// level 5: CCC GGG
 }
-
-// TODO à mettre dans text_test.go
-
-/*
-func TestCountNodesAndCommentsLines(t *testing.T) {
-	const testTreeNodesCount = 18
-	const testTreeLinesCount = 11
-	node0 := buildTestTree()
-
-	nodesCount, linesCount := node0.CountNodesAndCommentsLines()
-
-	if nodesCount != testTreeNodesCount {
-		t.Errorf("nodesCount == %d, want %d", nodesCount, testTreeNodesCount)
-	}
-	if linesCount != testTreeLinesCount {
-		t.Errorf("linesCount == %d, want %d", linesCount, testTreeLinesCount)
-	}
-}
-*/
